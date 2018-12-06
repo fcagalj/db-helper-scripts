@@ -1,0 +1,19 @@
+{
+  "name": "db-helper-scripts",
+  "version": "1.0.0",
+  "description": "Helper scripts for db management",
+  "main": "index.js",
+  "scripts": {
+    "import": "node ./scripts/import",
+    "export": "node ./scripts/export"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "bluebird": "^3.5.3",
+    "execa": "^1.0.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.15"
+  }
+}

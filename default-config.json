@@ -1,0 +1,7 @@
+{
+  "mongoAppDb": {
+    "host": "localhost",
+    "db": "bizbinge",
+    "port": "27017"
+  }
+}

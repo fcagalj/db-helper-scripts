@@ -1,0 +1,25 @@
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+#Loacal configuration
+default-config-local.json
+dump
+
+# Dependency directories
+node_modules
+bower_components
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Temp directories
+.tmp
+
+### IDE ###
+.idea
