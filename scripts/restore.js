@@ -4,7 +4,7 @@ const options    = require('./../default-options.json');
 
 
 function _getCommand() {
-  return 'mongodump';
+  return 'mongorestore';
 }
 
 function _getArguments(opt) {
@@ -20,23 +20,23 @@ function _getArguments(opt) {
   return _a;
 }
 
-function mongoexport(opt) {
+function mongoDump(opt) {
   return execa(_getCommand(), _getArguments(opt))
     .then(result => {
 
 
       return result;
     }).catch(err => {
-      console.log('Error mongoexport: ', err);
+      console.log('Error mongoDump: ', err);
     });
 }
 
-//mongoexport command should be in path variable
-//all options for mongoexport command can be used
+//mongodump command should be in path variable
+//all options for mongodump command can be used
 
-mongoexport(options.import)
+mongoDump(options.import)
   .then(result => {
-    console.log('Export result: ', result);
+    console.log('Result: ', result);
   })
   .catch(err => {
     console.log('Error exporting: ', err);

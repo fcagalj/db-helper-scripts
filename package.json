@@ -4,10 +4,10 @@
   "description": "Helper scripts for db management",
   "main": "index.js",
   "scripts": {
-    "import": "node ./scripts/import",
-    "export": "node ./scripts/export"
+    "archive": "node ./scripts/archive",
+    "restore": "node ./scripts/restore"
   },
-  "author": "",
+  "author": "fcagalj@gmail.com",
   "license": "ISC",
   "dependencies": {
     "async": "^2.6.1",

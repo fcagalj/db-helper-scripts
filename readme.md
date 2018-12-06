@@ -1,6 +1,6 @@
 # db-helper-scripts
 
-Collection of helper scripts to perform different db management tasks.
+Collection of helper scripts for db management.
 
 ## Installation
 ```
@@ -17,6 +17,6 @@ Collection of helper scripts to perform different db management tasks.
 
 ## Scripts
 
-* import
-
-Stores local db with choose name, if exists. Imports choosen. 
+* archive
+* restore
+* migrate

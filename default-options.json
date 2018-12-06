@@ -2,6 +2,6 @@
   "import": {
     "host": "127.0.0.1:27017",
     "db": "testDb",
-    "archive=/dump/201812localArchive.mongodump": ""
+    "archive=dump/201812localArchive.bson": ""
   }
 }
