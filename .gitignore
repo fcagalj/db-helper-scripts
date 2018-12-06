@@ -5,8 +5,8 @@ logs
 npm-debug.log*
 
 #Loacal configuration
-default-config-local.json
 dump
+default-options-local.json
 
 # Dependency directories
 node_modules
